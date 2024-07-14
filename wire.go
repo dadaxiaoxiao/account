@@ -17,7 +17,6 @@ var thirdPartyProvider = wire.NewSet(
 	ioc.InitRedis,
 	ioc.InitEtcdClient,
 	ioc.InitLogger,
-	ioc.InitOTEL,
 )
 
 func InitApp() *customserver.App {
